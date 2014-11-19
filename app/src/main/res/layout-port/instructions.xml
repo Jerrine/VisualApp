@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff1d1d1d">
+
+    <TextView
+        android:id="@+id/instruction_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:textColor="#ffffffff"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="120dip"
+        android:layout_marginLeft="50dip"
+        android:text="Instructions:"/>
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:textColor="#ffffffff"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="50dip"
+        android:layout_marginTop="200dip"
+        android:layout_marginLeft="50dip"
+        android:text="There are 4 types of display in this experiment, each will be displayed one at a time randomly. You have to look for the target and tap on it, once you are happy with it click on the 'Confirm' button. There will be 12 trials before the actual experiment starts. Click on the 'Start trial' button once you are ready. "/>
+
+    <Button
+        android:id="@+id/btn_start_trial"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="600dip"
+        android:layout_marginLeft="250dip"
+        android:text="Start trial" />
+</RelativeLayout>

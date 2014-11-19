@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff1d1d1d">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Human Behaviour"
+        android:id="@+id/human_behaviour"
+        android:textSize="20pt"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="30dip"
+        android:textColor="#ffffffff"
+        android:typeface="serif"
+        android:shadowColor="#ff72a9ff"
+        android:shadowRadius="3.0"
+        android:shadowDx="2.0"
+        android:shadowDy="2.0"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&amp; Visual Perception"
+        android:id="@+id/visual_perception"
+        android:textSize="20pt"
+        android:layout_marginLeft="170dip"
+        android:layout_marginTop="100dip"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:shadowColor="#ffcfd2d2"
+        android:shadowRadius="1.5"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:textColor="#ffffffff"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="300dip"
+        android:layout_marginLeft="100dip"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_name"
+        android:layout_marginTop="300dip"
+        android:layout_marginLeft="20dip"
+        android:inputType="text"/>
+
+    <TextView
+        android:id="@+id/tv_age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:textColor="#ffffffff"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_name"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="100dip"
+        android:text="Age"/>
+
+    <EditText
+        android:id="@+id/et_age"
+        android:layout_width="50dip"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/editbox_background"
+        android:layout_toRightOf="@id/tv_age"
+        android:layout_marginTop="400dip"
+        android:layout_marginLeft="40dip"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/tv_gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15pt"
+        android:textColor="#ffffffff"
+        android:typeface="monospace"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/tv_age"
+        android:layout_marginRight="9dip"
+        android:layout_marginTop="50dip"
+        android:layout_marginLeft="100dip"
+        android:text="Gender"/>
+
+    <RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@id/tv_gender"
+        android:layout_marginTop="498dip"
+        android:layout_marginLeft="20dip">
+
+        <RadioButton
+            android:id="@+id/radioMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="10pt"
+            android:textColor="#ffffffff" />
+
+        <RadioButton
+            android:id="@+id/radioFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="10pt"
+            android:textColor="#ffffffff" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_gender"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="100dip"
+        android:layout_marginLeft="250dip"
+        android:text="Next" />
+
+
+</RelativeLayout>
