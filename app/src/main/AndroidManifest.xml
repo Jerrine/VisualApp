@@ -26,6 +26,11 @@
             android:name=".DisplayA"
             android:screenOrientation="landscape" >
         </activity>
+        <activity
+            android:label="@string/app_name"
+            android:name=".DisplayC"
+            android:screenOrientation="landscape" >
+        </activity>
     </application>
 
 </manifest>

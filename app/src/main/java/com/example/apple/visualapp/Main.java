@@ -1,5 +1,6 @@
 package com.example.apple.visualapp;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,7 +12,7 @@ import android.content.Context;
 import android.view.View.OnClickListener;
 
 
-public class Main extends ActionBarActivity {
+public class Main extends Activity {
 
     Button button;
 
